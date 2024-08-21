@@ -1,1 +1,1 @@
-# CSC-104-Final-Project
+This is the final Project for Eloy Fernandez's CSC 104 Beginning Website Interfaces class. This Website will show a new Dungeons and Dragons player some helpful resources as well as common rules that they will need for playing the game. It is not an in depth guide, but it is enough to get one started. The color scheme consists of Red, Grey, and white/beige. 
