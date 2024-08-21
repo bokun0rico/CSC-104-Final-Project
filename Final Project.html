@@ -1,0 +1,64 @@
+<!-- This is an HTML comment. Can use ctrl+? to make this automatically. Make sure to have plenty. -->
+<!-- The first HTML tag that we need on each and every page is to tell the browser that this is an HTML 5 webpage -->
+
+<!DOCTYPE html> 
+
+<!-- The next HTML tag that we need to include is the HTML tag because redundancy. Lang = en should set the language to English usually. -->
+
+<html lang="en">
+<link rel="stylesheet" href="Final Project CSS.css">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>D&D Beginner</title>
+
+    </head>
+
+    <body>
+        <header>
+            <!-- Classifies the top of the age as the head and includes a picture as well as the title of the webpage -->
+            <div class="head">
+                <img src="Final Project Images/Temp.png" alt="Picture of a D20" id="D20">
+                <div><h1>Beginners Guide to Dungeon and Dragons</h1></div>
+            </div>
+        </header>
+        <main>
+            <!-- Classifies the links to be used at the top of the webpage as well as blank hyperlinks to what will be the other pages in the future -->
+            <div class="top-links">
+                <div><a href="Common Rules.html"> Common Rules</a></div>
+                <div><a href="Work in progress"> Link to page 2</a></div>
+            </div>
+            <!-- Makes a new class for the informative section of the page which will have the majority of the text underneath the respective links. -->
+            <div class="section-info">
+                <div>Some of the Common Rules of DND are combat, Traveling, Dying, and what one does when they are outside of combat like talking with npcs or trying to solve puzzles. Typically the hardest thing for a new player to grasp though, would be all the abilities at their disposal which they can use in any of these scenarios to make the lives of their characters easier. The above link will guide you to a page with these common rules and examples of each one.</div>
+                <div>This will be another decently long portion of sample text. Luckily when I was making the first one I realized that I needed to increase the margin because it was bleeding into the sidebar. I definitely could be doing things better, but things are working mostly how I want them to and should not have any issues in the future as far as I know.</div>
+            </div>
+        </main>
+        <!-- Classifies the sidebar as well as including 3 different useful links to other sites related to Dungeons and Dragons that may be useful to the user. Setup in a bulleted list using ul and il tags. -->
+        <div class="sidebar">
+            <table>
+                <tr>
+                    <th>Website Link</th>
+                    <th>Website Description</th>
+                </tr>
+                <tr>
+                    <td><b><a href="https://roll20.net">Roll 20</a></b></td>
+                    <td>Public games, in depth rules, map use, some paid features</td>
+                </tr>
+                <tr>
+                    <td><b><a href="https://www.dndbeyond.com">D&D Beyond</a></b></td>
+                    <td>Character creation, some paid features, base rules</td>
+                </tr>
+                <tr>
+                    <td><b><a href="https://www.owlbear.rodeo">Owlbear Rodeo</a></b></td>
+                    <td>Map use, free, many plugins, private games</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+<!-- No footer as there was no necessity for one as of now. May be used in the future. May include one in the future if the site is used for something other than class. -->
+</html>
