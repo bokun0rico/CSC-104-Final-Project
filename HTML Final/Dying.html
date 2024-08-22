@@ -1,0 +1,78 @@
+<!-- This is an HTML comment. Can use ctrl+? to make this automatically. Make sure to have plenty. -->
+<!-- The first HTML tag that we need on each and every page is to tell the browser that this is an HTML 5 webpage -->
+
+<!DOCTYPE html> 
+
+<!-- The next HTML tag that we need to include is the HTML tag because redundancy. Lang = en should set the language to English usually. -->
+
+<html lang="en">
+<link rel="stylesheet" href="Final Project CSS.css">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>D&D Dying Rules</title>
+
+    </head>
+
+    <body>
+        <header>
+            <!-- Classifies the top of the age as the head and includes a picture as well as the title of the webpage -->
+            <div class="head">
+                <img src="D20.png" alt="Picture of a D20" id="D20">
+                <div><h1>Beginners Guide to Dungeon and Dragons</h1></div>
+            </div>
+        </header>
+        <main>
+            <!-- Classifies the links to be used at the top of the webpage as well as blank hyperlinks to what will be the other pages in the future -->
+            <div class="top-links">
+                <div>Rule Explanations</div>
+                <div>Examples</div>
+            </div>
+            <!-- Makes a new class for the informative section of the page which will have the majority of the text underneath the respective links. -->
+            <div class="rules-info">
+                <div>
+                    <ul>
+                        <li>Going Unconscious: Looks like you've taken a few hits and your health reached zero. When this happens, you fall unconscious. You know, like getting knocked out. This is no reason to panic so long as you're a little lucky or got a friend to help you out. This would pretty much be considered the first step to dying and while unconscious, you can't really do anything.</li>
+                        <li>Getting up from being Unconscious: In order to get back up, there are a few options. You either stay unconsious for an amount of time determined by your dm until you wake up again, or you get any form of healing. Once you have at least 1 health back, you can get right back to slaying goblins. You do need to spend a bit of time picking yourself up off the floor though. It'll take a staggering 50% of your base movement. Luckily it doesn't require anything else.</li>
+                        <li>Death Saves/Stabilization: Once you've fallen unconscious you are considered unstable, and whenver you would normally have a turn, you instead roll a death saving throw. This just means you roll a d20 and mark down the result. If the result is 9 or lower, mark a fail. Everything else, you mark a success. Those successes and fails reset whenever you wake up too. If you have 3 fails, you die. Be careful about that. After 3 successes you are stable and just need to wait out your time, or get some healing. Your friends can also help you out by making a Medicine Check to stabilize you if they don't trust your luck and aren't magically inclined. There are also special upsides and downsides to rolling a natural 20 or a natural 1 when making these saves. Natural 1 means you mark 2 fails, and on a Natural 20 you gain 1 health back and get to start taking your turn like normal. You know, since you're conscious now.</li>
+                        <li>Instant Death!?: If you ever take 1 hit of damage that takes you to 0 hitpoint and then exceeds your maximum health with the excess, you die instantly. No going unconsious or death saves for you. Scary, I know. Luckily this is something that does not happen too often, so with any luck you should not need to worry about it.</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>Going Unconsious: "Oh no, I just took 5 damage but only had 3 health left. Guys, looks like I'm unconsious now."</li>
+                        <li>Getting up from being Unconsicous: "Looks like I wasn't even out for that long. I got knocked to 0 health, but Phil came up and cast a healing spell so I feel right as rain. Just gotta stand up first and go get back at that goblin for what they did to me."</li>
+                        <li>Death Saves/Stabilization: "My turn rolled around and I'm still unconsious, I already have 2 fails, so I need to roll a 10 or higher if I want to stay alive here. Sure would be nice if someone would get me some healing or something. Oh, nevermind. Looks like I rolled a natural 20 and am conscious again. I can go deal with that enemey first and get mad at my teammates for leaving me here later."</li>
+                        <li>Instant Death!?: "Oh no, I have a maximum health of 10, but right now I only have 7 because of a fight I got into. I need to make sure I avoid those falling rocks, because if one of them hits me and it does 17 damage, it will kill me instantly." (Think, if the instance of damage is your greater than or equal to Max Health + Current Health, you die instantly.)</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <!-- Classifies the sidebar as well as including 3 different useful links to other sites related to Dungeons and Dragons that may be useful to the user. Setup in a bulleted list using ul and il tags. -->
+        <div class="sidebar">
+            <table>
+                <tr>
+                    <th>Website Link</th>
+                    <th>Website Description</th>
+                </tr>
+                <tr>
+                    <td><b><a href="https://roll20.net">Roll 20</a></b></td>
+                    <td>Public games, in depth rules, map use, some paid features</td>
+                </tr>
+                <tr>
+                    <td><b><a href="https://www.dndbeyond.com">D&D Beyond</a></b></td>
+                    <td>Character creation, some paid features, base rules</td>
+                </tr>
+                <tr>
+                    <td><b><a href="https://www.owlbear.rodeo">Owlbear Rodeo</a></b></td>
+                    <td>Map use, free, many plugins, private games</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+<!-- No footer as there was no necessity for one as of now. May be used in the future. May include one in the future if the site is used for something other than class. -->
+</html>

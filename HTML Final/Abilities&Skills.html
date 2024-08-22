@@ -1,0 +1,76 @@
+<!-- This is an HTML comment. Can use ctrl+? to make this automatically. Make sure to have plenty. -->
+<!-- The first HTML tag that we need on each and every page is to tell the browser that this is an HTML 5 webpage -->
+
+<!DOCTYPE html> 
+
+<!-- The next HTML tag that we need to include is the HTML tag because redundancy. Lang = en should set the language to English usually. -->
+
+<html lang="en">
+<link rel="stylesheet" href="Final Project CSS.css">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>D&D Abilities & Skills</title>
+
+    </head>
+
+    <body>
+        <header>
+            <!-- Classifies the top of the age as the head and includes a picture as well as the title of the webpage -->
+            <div class="head">
+                <img src="D20.png" alt="Picture of a D20" id="D20">
+                <div><h1>Beginners Guide to Dungeon and Dragons</h1></div>
+            </div>
+        </header>
+        <main>
+            <!-- Classifies the links to be used at the top of the webpage as well as blank hyperlinks to what will be the other pages in the future -->
+            <div class="top-links">
+                <div>Rule Explanations</div>
+                <div>Examples</div>
+            </div>
+            <!-- Makes a new class for the informative section of the page which will have the majority of the text underneath the respective links. -->
+            <div class="rules-info">
+                <div>
+                    <ul>
+                        <li>Ability Scores: There are 6 different Ability Scores in D&D. The baseline for someone to be average at something would be 10, with a 1 being nearly impossible and a 20 meaning one has reached the peak that a normal person could reach in that skill typically. You get a modifier to all rolls using the ability score for every 2 points it is above 10. This modifier can be negative though, with 9 being a -1 and decreasing by one for every 2 points below that.</li>
+                        <li>Proficiency Bonus: Each character has a proficiency bonus which is a modifier applied to rolls in which they are proficient. This modifier starts at +2, and increases for every 4 levels past level 1. First bonus coming in at level 5, then 9 and so on. Having proficiency in a skill while being max level even means one could have a better modifier in a certain fields than someone who has a maxed out stat, but no proficiency bonus. When stacked, one can almost negate any chance of failure at high levels.</li>
+                        <li>Skills: As mentioned in Common Rules, Skills are specific areas within Abilities that one may be more or less skilled in. Two people may have the same Dexterity score, but one has proficiency in Stealth while the other has it in Acrobatics. This means they would still have different modifiers in those field, regardless of their flat ability. Each skill has an Ability Score tied to it, so you would just use the Ability Score for the modifier and then include proficiency bonus if you have it.</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>Ability Scores: "Because I have a 17 in Strength I have a +3 bonus to every roll I make that uses Strength. Sadly My Dextery is only 6 though. That Means I'm getting a -2 to those rolls. Lets hope I don't need to do any balancing or dodging."</li>
+                        <li>Proficiency Bonus: "I may only have a +1 in Strength becaus of my stats, but whenever I roll an Athletics Check which uses strength, I'm getting a +5 bonus because of my proficiency. I don't just need raw strength to be just as capable as even some of the strongest guys now."</li>
+                        <li>Skills: "I've decided while building my character that I want to put proficiency into Athletics and Stealth. I'm already pretty dexterous, but I want to make sure that I'm super good at stealth. I'm not very strong, but maybe my proficiency bonus will help offset the negative modifier I get from being so weak."</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <!-- Classifies the sidebar as well as including 3 different useful links to other sites related to Dungeons and Dragons that may be useful to the user. Setup in a bulleted list using ul and il tags. -->
+        <div class="sidebar">
+            <table>
+                <tr>
+                    <th>Website Link</th>
+                    <th>Website Description</th>
+                </tr>
+                <tr>
+                    <td><b><a href="https://roll20.net">Roll 20</a></b></td>
+                    <td>Public games, in depth rules, map use, some paid features</td>
+                </tr>
+                <tr>
+                    <td><b><a href="https://www.dndbeyond.com">D&D Beyond</a></b></td>
+                    <td>Character creation, some paid features, base rules</td>
+                </tr>
+                <tr>
+                    <td><b><a href="https://www.owlbear.rodeo">Owlbear Rodeo</a></b></td>
+                    <td>Map use, free, many plugins, private games</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+<!-- No footer as there was no necessity for one as of now. May be used in the future. May include one in the future if the site is used for something other than class. -->
+</html>
